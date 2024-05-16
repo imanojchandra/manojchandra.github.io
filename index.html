@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Chandra</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <!-- HEADER NAVBAR -->
+    <nav id="desk-nav">
+        <div class="logo">iM</div>
+        <div>
+            <div class="social-container">
+                <ul class="nav-links">
+                    <!-- <li><a href="#twitter">Twitter</a></li> -->
+                    <li><a href="https://www.linkedin.com/in/imanojchandra/" target="_blank">
+                        <img src="linkedin-icon.png" alt="LinkedIn" class="icon" >
+                        </a>
+                    </li>
+                    <li><a href="https://www.github.com/imanojchandra/" target="_blank">
+                        <img src="github-icon.png" alt="Github" class="icon" >
+                        </a>
+                    </li>
+                    <li><a href="Manoj_Resume_CV.pdf" target="_blank">
+                        <img src="document-icon.jpg" alt="Github" class="icon" >
+                        </a>
+                    </li>
+                    <!-- <li><a href="#linkedin">LinkedIn</a></li> -->
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HAMBURGER MENU FOR SMALLER SIZES -->
+    <nav id="hamburger-nav">
+        <div class="logo">iM</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <!-- <li><a href="#twitter" onclick="toggleMenu()">Twitter</a></li> -->
+                <li><a href="https://www.linkedin.com/in/imanojchandra/" onclick="toggleMenu()" target="_blank">
+                    <img src="linkedin-icon.png" alt="Github" class="icon" >
+                    </a>
+                </li>
+                <li><a href="https://www.github.com/imanojchandra/" onclick="toggleMenu()" target="_blank">
+                    <img src="github-icon.png" alt="Github" class="icon" >
+                    </a>
+                </li>
+                <li><a href="Manoj_Resume_CV.pdf" target="_blank" onclick="toggleMenu()">
+                    <img src="document-icon.jpg" alt="Github" class="icon" >
+                    </a>
+                </li>
+                <!-- <li><a href="#linkedin" onclick="toggleMenu()">LinkedIn</a></li> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- PROFILE -->
+    <section id="profile">
+        <div class="pic-container">
+            <img src="profile-pic-1.png" alt="Manoj's Profile Pic">
+        </div>
+
+        <div class="section-text">
+            <h1 class="greeting-name">I'm Manoj,</h1>
+            <p class="greeting-text"><!-- Lead--> Data Analyst. <br>
+                Data Scientist.<br>
+                <!-- <h2>Maths Tutor.<br> </h2>-->
+            </p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='./#learn-more'">
+                    Learn More
+                    <!-- <a href="#About&Projects">Learn More</a> -->
+                </button>
+                <button class="btn btn-color-2" onclick="window.open('https://www.linkedin.com/in/imanojchandra/')">
+                    <!-- <a href="https://www.linkedin.com/in/imanojchandra/" target="_blank"> -->
+                        Say hi <svg class="MuiSvgIcon-root" focusable="false" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="4" r="2"></circle><path d="M15.89 8.11C15.5 7.72 14.83 7 13.53 7h-2.54C8.24 6.99 6 4.75 6 2H4c0 3.16 2.11 5.84 5 6.71V22h2v-6h2v6h2V10.05L18.95 14l1.41-1.41-4.47-4.48z"></path></svg>
+                    </a>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- PROJECTS -->
+    <div id="learn-more" class="projects">
+        <div class="project">
+            <img src="health-icon.png" alt="Project 1 Icon" class="project-icon">
+            <h2>Health Data Analysis</h2>
+            <p>Cleaned and transformed <span>health dataset</span> features relevant to heart disease, ensuring data accuracy and consistency for robust analysis. Conducted comprehensive <Span>exploratory data analysis (EDA)</Span> utilizing Python libraries, uncovering valuable insights.<br><br>Developed an interactive <Span>Power BI dashboard</Span> to effectively communicate complex information to stakeholders, facilitating informed decision-making.</p>
+        </div>
+        <div class="project">
+            <img src="visualisation-icon.png" alt="Project 2 Icon" class="project-icon">
+            <h2>Accenture Job Simulation Project</h2>
+            <p>Completed a simulation focused on advising a hypothetical social media client SocialBuzz as a Data Analyst at <span>Accenture</span>.<br><br>Cleaned, modelled, and analysed 7 datasets to uncover insights into content trends to inform <span>strategic decisions</span>. Prepared a PowerPoint deck and video presentation to communicate key insights for the <span>client</span> and <span>internal stakeholders</span>.</p>
+        </div>
+        <div class="project">
+            <img src="finance-icon.png" alt="Project 4 Icon" class="project-icon">
+            <h2>Financial Analysis</h2>
+            <p>Demonstrated expertise in financial data analysis, utilizing <span>Python libraries</span>. Applied advanced techniques like candlestick plots and moving averages to interpret multiple <span>banks' market trends</span> and identify trading opportunities. Presented complex financial concepts clearly in project solution lectures, showcasing strong presentation skills.</p>
+        </div>
+        <div class="project">
+            <img src="projects-icon.png" alt="Project 1 Icon" class="project-icon">
+            <h2>Project Management</h2>
+            <p>Led the adoption of <span>Agile</span> practices using Jira across all projects, and have directly acted as <span>Product Manager</span> on a number of projects directly working with clients to determine requirements and break them down in to User Stories.<br><br>Interviewed new team members and represented the company at various business and recruitment fairs.</p>
+        </div>
+        <div class="project">
+            <img src="ML-icon.png" alt="Project 3 Icon" class="project-icon">
+            <h2>Machine Learning</h2>
+            <p>Currently working.</p>
+        </div>
+        <div class="project">
+            <img src="powerbi-icon.png" alt="Project 5 Icon" class="project-icon">
+            <h2>Power BI Analysis and Visualisation</h2>
+            <p></p>
+        </div>
+        
+        <!-- Repeat for other projects -->
+    </div>
+    
+    <!-- FOOTER -->
+    <footer>
+        <p>© Manoj Chandra <a href="https://youtu.be/1wnE4vF9CQ4?si=WVQZYd--zxX4DW6J" target="_blank"><img src="Black-Heart-icon.png" alt="Heart Icon" class="heart-icon"></a></p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
