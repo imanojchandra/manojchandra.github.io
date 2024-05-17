@@ -198,3 +198,35 @@
         display: none;
     }
 }
+
+/* Titled Screen on small devices */
+@media (min-height: 360px) and (max-height: 523px) {
+    #profile{
+        margin-top: 25px;
+    }
+
+    .pic-container {
+        height: 300px;
+        width: 300px;
+        /* margin: auto; */
+    }
+
+    .pic-container img {
+        height: 300px;
+        width: 300px;
+        /* display: none; */
+    }
+
+    .section-text {
+        text-align: left;
+        font-size: 1rem;
+        height: 350px;
+        width: 350px;
+    }
+
+    .greeting-name {
+        text-align: left;
+        font-size: 3rem;
+    }
+
+}
