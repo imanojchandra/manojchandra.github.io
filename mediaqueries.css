@@ -200,7 +200,7 @@
 }
 
 /* Titled Screen on small devices */
-@media (min-height: 360px) and (max-height: 523px) {
+@media (min-height: 359px) and (max-height: 481px) {
     #profile{
         margin-top: 25px;
     }
